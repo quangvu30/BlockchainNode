@@ -84,3 +84,35 @@
 12:08:26.350021 db@open done T·23.9377ms
 12:09:02.408493 db@close closing
 12:09:02.409004 db@close done T·510.5µs
+=============== Mar 30, 2022 (+07) ===============
+15:36:36.592091 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:36:36.592091 version@stat F·[2 1] S·148KiB[54KiB 93KiB] Sc·[0.50 0.00]
+15:36:36.592091 db@open opening
+15:36:36.592091 journal@recovery F·1
+15:36:36.594086 journal@recovery recovering @19
+15:36:36.597089 memdb@flush created L0@21 N·49 S·2KiB "H!\x83..%\x8b\x99,v2439":"unc..own,v2427"
+15:36:36.600070 version@stat F·[3 1] S·150KiB[57KiB 93KiB] Sc·[0.75 0.00]
+15:36:36.617042 db@janitor F·6 G·0
+15:36:36.617042 db@open done T·24.9509ms
+15:37:21.056777 db@close closing
+15:37:21.057288 db@close done T·510.6µs
+=============== Mar 30, 2022 (+07) ===============
+15:38:31.238799 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:38:31.238799 version@stat F·[3 1] S·150KiB[57KiB 93KiB] Sc·[0.75 0.00]
+15:38:31.238799 db@open opening
+15:38:31.239308 journal@recovery F·1
+15:38:31.240324 journal@recovery recovering @22
+15:38:31.243896 memdb@flush created L0@24 N·139 S·6KiB "H\x01\x9f..\xb5\xd0\xe0,v2606":"unc..own,v2477"
+15:38:31.245430 version@stat F·[4 1] S·157KiB[63KiB 93KiB] Sc·[1.00 0.00]
+15:38:31.262050 db@janitor F·7 G·0
+15:38:31.262050 db@open done T·23.2513ms
+15:38:31.262050 table@compaction L0·4 -> L1·1 S·157KiB Q·2616
+15:38:31.270812 table@build created L1@27 N·2026 S·140KiB "\x02d\xfc..\x19Ba,v430":"\xfe\x88\xcf..H\xef\xcc,v363"
+15:38:31.270812 version@stat F·[0 1] S·140KiB[0B 140KiB] Sc·[0.00 0.00]
+15:38:31.279860 table@compaction committed F-4 S-17KiB Ke·0 D·383 T·17.8097ms
+15:38:31.280396 table@remove removed @21
+15:38:31.280911 table@remove removed @18
+15:38:31.280911 table@remove removed @15
+15:38:31.281425 table@remove removed @14
+15:39:03.570997 db@close closing
+15:39:03.571511 db@close done T·513.4µs
